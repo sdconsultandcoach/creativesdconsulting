@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Shefali Desai Consult and Coach -->
+    <title>SD Consult & Coach</title>
+    <!-- Load external CSS styles -->
+    <link rel="stylesheet" href="src/assets/css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <img id="logo" src="src/assets/images/logo/logo.svg" alt="Logo" />
+            <nav>
+                <button><a href="index.html">Home</a></button><br>
+                <button><a href="src/pages/about.html">About</a></button><br>
+                <button><a href="#">Portfolio</a></button><br>
+                <button><a href="#">Services</a></button><br>
+                <button><a href="#">Contact</a></button><br>
+            </nav>
+            <section id="background-color-controller">
+                <h4>Gradient Background</h4>
+                <p>
+                    Use the color buttons below to choose three colors! The colors you choose will change my page background circular gradient.
+                </p>
+
+                <button>
+                    <label for="centerColor">Center Color</label><br>
+                    <input type="color" id="centerColor" value="#252f49" onchange="updateBackgroundColor()">
+                </button>
+                <br>
+                <button>
+                <label for="midColor">Mid Color</label><br>
+                <input type="color" id="midColor" value="#b4b3ff" onchange="updateBackgroundColor()">
+                </button>
+                <br>
+                <button>
+                <label for="outerColor">Outside Color </label><br>
+                <input type="color" id="outerColor" value="#000000" onchange="updateBackgroundColor()">
+                </button>
+            </section>
+        </header>
+        <div id="main">
+
+        </div>
+
+        <!-- Load external JavaScript -->
+        <script src="src/scripts/scripts.js"></script>
+        
+    </body>
+
+</html>
