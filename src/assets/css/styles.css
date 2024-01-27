@@ -12,10 +12,10 @@ header {
     margin: 5px;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    margin-top: -75px;
+#logo {
+    margin: -50px 5px 5px 5px;
+    width: 250px;
+    height: 250px;
 }
 
 nav {
