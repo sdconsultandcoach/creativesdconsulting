@@ -11,37 +11,27 @@
     </head>
 
     <body>
+        <img id="logo" src="src/assets/images/logo/logo.svg" alt="Logo" />
+        <!-- Header Section: Floating right, dissappears on scroll, shows up when scrolling stops.-->
         <header>
-            <img id="logo" src="src/assets/images/logo/logo.svg" alt="Logo" />
             <nav>
                 <button><a href="index.html">Home</a></button><br>
                 <button><a href="src/pages/about.html">About</a></button><br>
-                <button><a href="#">Portfolio</a></button><br>
                 <button><a href="#">Services</a></button><br>
                 <button><a href="#">Contact</a></button><br>
             </nav>
-            <section id="background-color-controller">
-                <h4>Gradient Background</h4>
-                <p>
-                    Use the color buttons below to choose three colors! The colors you choose will change my page background circular gradient.
-                </p>
-
-                <button>
-                    <label for="centerColor">Center Color</label><br>
-                    <input type="color" id="centerColor" value="#252f49" onchange="updateBackgroundColor()">
-                </button>
-                <br>
-                <button>
-                <label for="midColor">Mid Color</label><br>
-                <input type="color" id="midColor" value="#b4b3ff" onchange="updateBackgroundColor()">
-                </button>
-                <br>
-                <button>
-                <label for="outerColor">Outside Color </label><br>
-                <input type="color" id="outerColor" value="#000000" onchange="updateBackgroundColor()">
-                </button>
+            <section id="projects">
+                <h2>Projects: </h2>
+                <ol type="I">
+                    <li><a href="#">Balance Sheet</a></li>
+                    <li><a href="#">Penguin</a></li>
+                    <li><a href="#">Ferris Wheel</a></li>
+                </ol>
+                <a href="#"></a><br>
+                <a href="#"></a><br>
             </section>
         </header>
+
         <div id="main">
 
         </div>
