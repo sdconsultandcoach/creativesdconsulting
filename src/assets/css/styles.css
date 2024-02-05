@@ -1,29 +1,11 @@
-html {
-    background-color: bisque;
+* {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
 }
 
 body {
-    border: 2px solid black;
-}
-
-header {
-    border: 2px solid black;
-    width: 30%;
-    margin: 5px;
-}
-
-#logo {
-    margin: -50px 5px 5px 5px;
-    width: 250px;
-    height: 250px;
-}
-
-nav {
-    text-align: center;
-    margin: 10px;
-    width: auto;
-}
-
-nav a {
-    text-decoration: none;
+    background: radial-gradient(#286a6c 10%, #ff914d 30%, #ffde59 50%, #ffbd59 40%,  #d3dfe1 30%, #94c8d2 60%, #1b1f14 70%);
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bolder;
 }
