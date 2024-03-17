@@ -1,11 +1,75 @@
-* {
-    text-align: center;
-    font-family:'Courier New', Courier, monospace
+html {
+	background-color: crimson;
+	border: solid 15px black;
+	margin: 0;
+	width: auto;
+	height: auto;
 }
 
 body {
-    background: radial-gradient(#286a6c 10%, #ff914d 30%, #ffde59 50%, #ffbd59 40%,  #d3dfe1 30%, #94c8d2 60%, #1b1f14 70%);
-    background-repeat: no-repeat;
-    color: white;
-    font-weight: bolder;
+    background-color: coral;
+	border: solid 15px yellow;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: bisque;
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	background-color: #080503;
+	border: solid 15px white;
+	width: 30%;
+	height: 70%;
+	align-content: center;
+	float: left;
+}
+
+main {
+	background-color: #080503;
+	border: solid 15px white;
+	width: 70%;
+	height: 70%;
+	align-content: center;
+	float: right;
+	/*
+	background: radial-gradient(#286a6c 10%, #ff914d 30%, #ffde59 50%, #ffbd59 40%,  #d3dfe1 30%, #94c8d2 60%, #1b1f14 70%);
+    background-repeat: no-repeat;	
+	*/
+}
+
+footer {
+	background-color: #080503;
+	border: solid 15px white;
+	width: 100%;
+	height: 30%;
+	align-content: center;
+	float: none;
+}
+
+img {
+	border-radius: 100px;
+	width: 100px;
+	height: auto;
+}
+
+button {
+	width: 100%;
+	height: 20px;
+	align-items: center;
+	background-color:aquamarine;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+a {
+	background-color: white;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 10px;
+	display: block;
+	text-align: center;
+	maring: 10px;
+	color: slateblue;
 }
