@@ -1,50 +1,46 @@
+* {
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Verdana", "sans-serif";
+	font-size: 16px;
+}
+
 html {
-	background-color: crimson;
-	border: solid 15px black;
-	margin: 0;
-	width: auto;
-	height: auto;
+	background-color: skyblue;
 }
 
 body {
-    background-color: coral;
-	border: solid 15px yellow;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-	color: bisque;
-	width: 100%;
-	height: 100%;
+	display: grid;
+	grid-template-rows: 30% 70% 30%;
+	grid-template-areas: 
+		"header"
+		"displayFrame sideNavBar"
+		"footer";
+	
 }
 
-header {
-	background-color: #080503;
-	border: solid 15px white;
-	width: 30%;
-	height: 70%;
-	align-content: center;
-	float: left;
+#header {
+	background-color: #3A2A71;
+	justify-content: stretch;
 }
 
-main {
-	background-color: #080503;
-	border: solid 15px white;
-	width: 70%;
-	height: 70%;
-	align-content: center;
-	float: right;
-	/*
+#displayFrame {
 	background: radial-gradient(#286a6c 10%, #ff914d 30%, #ffde59 50%, #ffbd59 40%,  #d3dfe1 30%, #94c8d2 60%, #1b1f14 70%);
-    background-repeat: no-repeat;	
-	*/
+    background-repeat: no-repeat;
+	width: 70%;
+	height: auto;
 }
 
-footer {
-	background-color: #080503;
-	border: solid 15px white;
-	width: 100%;
-	height: 30%;
-	align-content: center;
-	float: none;
+#sideNavBar {
+	background-color: aquamarine;
+	width: 30%;
+	height: auto;
 }
+
+#footer {
+	background-color: #3A2A71;
+	justify-content: stretch;
+}
+
 
 img {
 	border-radius: 100px;
